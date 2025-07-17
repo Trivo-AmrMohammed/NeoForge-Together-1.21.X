@@ -6,5 +6,9 @@
   "item.tztutorial.raw_osmium": "Raw Osmium",
 
   "block.tztutorial.osmium_block": "Block Of Osmium",
-  "block.tztutorial.osmium_ore": "Osmium Ore"
+  "block.tztutorial.osmium_ore": "Osmium Ore",
+  "block.tztutorial.ruby_ore": "Ruby Ore",
+
+  "creativetab.tztutorial.tz_items": "TZ Items",
+  "creativetab.tztutorial.tz_blocks": "TZ Blocks"
 }

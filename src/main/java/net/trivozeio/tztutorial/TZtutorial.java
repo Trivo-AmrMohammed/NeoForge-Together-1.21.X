@@ -1,6 +1,7 @@
 package net.trivozeio.tztutorial;
 
 import net.trivozeio.tztutorial.block.ModBlocks;
+import net.trivozeio.tztutorial.item.ModCreativeModeTabs;
 import net.trivozeio.tztutorial.item.ModItems;
 import org.slf4j.Logger;
 
@@ -54,6 +55,8 @@ public class TZtutorial {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
+
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
@@ -78,6 +81,7 @@ public class TZtutorial {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.OSMIUM_BLOCK);
             event.accept(ModBlocks.OSMIUM_ORE);
+            event.accept(ModBlocks.RUBY_ORE);
         }
     }
 
