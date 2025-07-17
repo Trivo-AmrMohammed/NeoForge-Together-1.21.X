@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tztutorial:block/osmium_block"
+    }
+  }
+}
